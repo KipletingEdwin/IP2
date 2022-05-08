@@ -14,7 +14,7 @@
      
  }
  .Items ul  a{
-     
+     float: right;
      text-decoration: none;
      color: white;
     padding: 5px 20px;
@@ -24,7 +24,7 @@
      color: white;
      background-color: yellow;
      padding: 5px 20px;
-     float: right;
+    
  }
  .House{
      background-color: black;

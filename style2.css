@@ -62,12 +62,10 @@
      width: 100%;
      height: 300px;
      margin: 10px;
-    background-color: green;
  }
  .One{
      width: 70%;
      height: 350px;
-     background-color: bisque;
  }
  .One img{
      width: auto;
@@ -77,26 +75,22 @@
      width: 30%;
      height: 350px;
      float: right;
-  
  }
  .Login{
-     
      padding: 20px;
+     margin: 20px;
  }
  .Login button{
      color: white;
      background-color: black;
  }
  .Fot{
-     margin:  10px;
      height: 100px;
      width: 70%;
      display: flex;
-     background-color: orangered;
  }
  .Fot img{
-     width: 6.0%;
-     height: auto;
+     width: 7.0%;
      padding: 10px;
  }
  .Tab{
@@ -112,22 +106,18 @@
      height: 40px;
      display: flex;
      border: 1px solid black;
-     background-color: red;
  }
  #car{
-     background-color: yellow;
      padding: 5px 20px ;
      width: 20%;
      border: 1px black;
  }
  #two{
-    background-color: green;
     padding: 5px 20px ;
     width: 20%;
     border: 1px black;
  }
  #next{
-    background-color: yellow;
     padding: 5px 20px ;
     width: 20%;
     border: 1px black;
@@ -135,7 +125,6 @@
 .Des{
     height: 250px;
     width: 60%;
-    background-color: orange;
     margin: 10px 10% 10px 10%;
     padding: 20px;
 }
@@ -144,8 +133,6 @@
    
 }
 .Fea{ 
-    
-    background-color: red;
     width: 60%;
     height: 250px;
     margin: 10px 10% 10px 10%;
@@ -156,7 +143,6 @@
     height: 300px;
     padding: 50px;
     overflow: hidden;
-    background-color: orange;
 }
 .Sim img{
     height: auto;
@@ -225,7 +211,7 @@ height: 40px;
     font-weight: 400;
 }
 .column{
-  background-color: orangered;
+  background-color: black;
   float: right;
   width: 33.33%;
   padding: 10px;

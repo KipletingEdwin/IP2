@@ -135,9 +135,9 @@
 }
 .Sim{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 300px;
-    padding: 20px;
+    padding: 50px;
     overflow: hidden;
     background-color: orange;
 }
@@ -149,10 +149,14 @@
 .Sim h4{
     padding: 20px;
 }
+#List{
+    color: black;
+    font-size: larger;
+    margin: 50px;
+}
 #Ten{
     width: 25%;
-    background-color: red;
-    
+     
 }
 #Ten img{
    height: auto;
@@ -167,5 +171,31 @@
 #Nine{
     width: 25%;
     height: 100px;
+}
+.Dream{
+    background-color:black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+      
+}
+.Dream p{
+   position: absolute;
+   right: 220px;
+   font-size: larger;
+  
+}
+.Dream button{
+position: absolute;
+right: 100px;
+color: black;
+background-color: rgb(131, 131, 10);
+height: 40px;
+}
+.Dream p span{
+    color: yellow;
+}
+.Make{
+    display: flex;
 }
  

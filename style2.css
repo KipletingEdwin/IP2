@@ -116,16 +116,54 @@
     border: 1px black;
  }
 .Des{
-    padding: 10px;
-    width: 100%;
+    height: 250px;
+    width: 60%;
     background-color: orange;
+    margin: 10px 10% 10px 10%;
+    padding: 20px;
 }
 .Des p{
     color: black;
+   
 }
-.Fea{
+.Fea{ 
+    
     background-color: red;
+    width: 60%;
+    height: 250px;
+    margin: 10px 10% 10px 10%;
+}
+.Sim{
+    display: flex;
     width: 100%;
-    height: 150px;
+    height: 300px;
+    padding: 20px;
+    background-color: orange;
+}
+.Sim img{
+    height: auto;
+    width: 100%;
+ }
+
+.Sim h4{
+    padding: 20px;
+}
+#Ten{
+    width: 25%;
+    background-color: blue;
+    
+}
+#Ten img{
+   height: auto;
+   width: 100%;
+}
+#Eleven{
+    width: 25%;
+}
+#Twelve{
+    width: 25%;
+}
+#Nine{
+    width: 25%;
 }
  

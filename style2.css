@@ -138,6 +138,7 @@
     width: 100%;
     height: 300px;
     padding: 20px;
+    overflow: hidden;
     background-color: orange;
 }
 .Sim img{
@@ -150,7 +151,7 @@
 }
 #Ten{
     width: 25%;
-    background-color: blue;
+    background-color: red;
     
 }
 #Ten img{
@@ -165,5 +166,6 @@
 }
 #Nine{
     width: 25%;
+    height: 100px;
 }
  

@@ -115,5 +115,17 @@
     width: 20%;
     border: 1px black;
  }
-
+.Des{
+    padding: 10px;
+    width: 100%;
+    background-color: orange;
+}
+.Des p{
+    color: black;
+}
+.Fea{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+}
  

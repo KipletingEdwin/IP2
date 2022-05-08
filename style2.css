@@ -70,6 +70,14 @@
      float: right;
   
  }
+ .Login{
+     
+     padding: 20px;
+ }
+ .Login button{
+     color: white;
+     background-color: black;
+ }
  .Fot{
      margin:  10px;
      height: 100px;

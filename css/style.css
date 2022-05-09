@@ -222,6 +222,9 @@ body{
 .Fot img{
     width: 13.2%;
 }
+@media (max-width:600px) {
+    
+}
 
 
 

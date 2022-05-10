@@ -83,8 +83,10 @@ body ul a{
     font-weight: 600;
 }
 .Maridadi span{
-    background-color: green;
-    padding: 5px 20px;
+    
+    padding: 3px 16px;
+    border: 1px solid black;
+    border-style: solid;
 }
 .Ente{
     display: flex;
@@ -134,6 +136,9 @@ body ul a{
 }
 .Tap h2 span{
     color: yellow;
+}
+.Tap p{
+    color: white;
 }
 .ColHe{
     width: 20%;

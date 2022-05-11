@@ -1,23 +1,25 @@
 *{
     padding: 0px;
 }
-.Items{
-    background-color: black;
+header{
     width: 100%;
     height: 100px;
-    display: flex;
+    background-color: black;
 }
-.Items ul{
-     height: 100px;
-     width: 100%; 
- }
- .Items ul  a{
-     float: right;
-     text-decoration: none;
-     color: white;
-    padding: 5px 20px;
- }
- .Items button{
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    
+}
+header ul li{
+    list-style: none;
+    padding: 30px;
+    color: white;
+
+}
+
+ header button{
      color: black;
      background-color: #FFAC12;
      padding: 10px 20px; 
@@ -54,32 +56,64 @@
  .Pic{
      display: flex;
      width: 100%;
-     height: 300px;
+     height: 350px;
      margin: 10px;
  }
  .One{
-     width: 70%;
+     width: 40%;
      height: 350px;
+    padding-left: 35px;
  }
  .One img{
      width: auto;
      height: 350px;
  }
  .Hall{
-     width: 30%;
+     width: 40%;
      height: 350px;
      float: right;
  }
+ .Det{
+     display: flex;
+     height: 50px;
+     padding-left: 5%;
+ }
+ .logo{
+     width: 30%;
+ }
+ .logo img{
+     border-radius: 50%;
+     height: 35px;
+     float: right;
+     padding-top: 5px;
+ }
+ .ails{
+     font-size: xx-small;
+     padding-left: 5px;
+ }
+ .ails h5{
+     color: #FFAC12;
+ }
  .Login{
      padding: 20px;
-     margin: 20px;
+     margin-left: 18%;
+     width: 30%;
+     
  }
+ .Login input{
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    border-radius: 10px;
+}
  .Login button{
      color: white;
      background-color: black;
+     padding: 5px 20px;
  }
  .Fot{
-     height: 100px;
+     padding: 30px;
+     height: 80px;
      width: 70%;
      display: flex;
  }
@@ -88,13 +122,25 @@
      padding: 10px;
  }
  .Tab{
-     margin: 10px;
-     height: 100px;
+     padding-left: 15px;
+     height: 50px;
      width: 70%;
-     border: 1px solid black;
+    background-color: #FFAC12;
  }
- .Tab h4{
-     padding: 20px;
+ .Evr{
+     padding-left: 15px;
+     height: 50px;
+     background-color: #FFAC12;
+     display: flex;
+ }
+ .Evr span{
+     display: flex;
+     width: 20%;
+     border: 1px solid black;
+     
+ }
+ .Tab h2{
+     padding: 12px;
  }
  .Details{
      height: 40px;
@@ -119,8 +165,12 @@
 .Des{
     height: 250px;
     width: 60%;
-    margin: 10px 10% 10px 10%;
+   margin-top: 80px;
     padding: 20px;
+    background-color: red;
+}
+.Des h2{
+    margin-left: 30px;
 }
 .Des p{
     color: black;
@@ -153,7 +203,6 @@
     height: 350px;
     width: 25%;
     background-color: red;  
-}
 }
 .Sim{
     display: flex;

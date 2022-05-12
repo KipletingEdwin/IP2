@@ -1,23 +1,26 @@
 *{
+    
     padding: 0px;
 }
-.Items{
-    background-color: black;
+header{
     width: 100%;
     height: 100px;
-    display: flex;
+    background-color: black;
 }
-.Items ul{
-     height: 100px;
-     width: 100%; 
- }
- .Items ul  a{
-     float: right;
-     text-decoration: none;
-     color: white;
-    padding: 5px 20px;
- }
- .Items button{
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    
+}
+header ul li{
+    list-style: none;
+    padding: 30px;
+    color: white;
+
+}
+
+ header button{
      color: black;
      background-color: #FFAC12;
      padding: 10px 20px; 
@@ -54,32 +57,64 @@
  .Pic{
      display: flex;
      width: 100%;
-     height: 300px;
+     height: 350px;
      margin: 10px;
  }
  .One{
-     width: 70%;
+     width: 40%;
      height: 350px;
+    padding-left: 35px;
  }
  .One img{
      width: auto;
      height: 350px;
  }
  .Hall{
-     width: 30%;
+     width: 40%;
      height: 350px;
      float: right;
  }
+ .Det{
+     display: flex;
+     height: 50px;
+     padding-left: 5%;
+ }
+ .logo{
+     width: 30%;
+ }
+ .logo img{
+     border-radius: 50%;
+     height: 35px;
+     float: right;
+     padding-top: 5px;
+ }
+ .ails{
+     font-size: xx-small;
+     padding-left: 5px;
+ }
+ .ails h5{
+     color: #FFAC12;
+ }
  .Login{
      padding: 20px;
-     margin: 20px;
+     margin-left: 18%;
+     width: 30%;
+     
  }
+ .Login input{
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    border-radius: 5px;
+}
  .Login button{
      color: white;
      background-color: black;
+     padding: 5px 20px;
  }
  .Fot{
-     height: 100px;
+     padding: 30px;
+     height: 80px;
      width: 70%;
      display: flex;
  }
@@ -88,13 +123,28 @@
      padding: 10px;
  }
  .Tab{
-     margin: 10px;
+     margin: 0px;
+     padding-left: 15px;
      height: 100px;
-     width: 70%;
-     border: 1px solid black;
+     width: 60%;
+     
  }
- .Tab h4{
-     padding: 20px;
+ #fiv{
+     height: 50px;
+ }
+ .Evr{
+     padding-left: 15px;
+     height: 50px;
+     display: flex;
+ }
+ .Evr span{
+     display: flex;
+     width: 20%;
+     border: 1px solid black;
+     
+ }
+ .Tab h2{
+     padding: 12px;
  }
  .Details{
      height: 40px;
@@ -119,41 +169,50 @@
 .Des{
     height: 250px;
     width: 60%;
-    margin: 10px 10% 10px 10%;
+   margin-top: 80px;
     padding: 20px;
+    border: 1px solid black;
+    background-color: beige;
+}
+.Des h2{
+    width: 30%;
+    padding-left: 15px;
 }
 .Des p{
+    padding-left: 10px;
     color: black;
    
 }
 .Fea{ 
   display: flex;
-  background-color: green;
-  height: 350px;
-  width: 70%;
+  height: 280px;
+  width: 60%;
   justify-content: center;
 }
-#onene{
+.Fea i{
+    color: #FFAC12;
+ }
+.Fea li{
+    list-style: none;
+    padding: 10px;
+}
+.onene{
    text-align: center;
     height: 350px;
     width: 25%;
-    background-color: yellow;
 }
 #To{
     height: 350px;
     width: 25%;
-    background-color: green;
 }
 #Ora{
     height: 350px;
     width: 25%;
-    background-color: purple; 
+     
 }
 #Air{
     height: 350px;
-    width: 25%;
-    background-color: red;  
-}
+    width: 25%;  
 }
 .Sim{
     display: flex;
@@ -180,7 +239,8 @@
 }
 #Ten{
     width: 25%;
-     
+    padding: 15px;
+     background-color: aliceblue;
 }
 #Ten img{
    height: auto;
@@ -188,32 +248,41 @@
 }
 #Eleven{
     width: 25%;
+    padding: 15px;
+    background-color: aliceblue;
 }
 #Twelve{
     width: 25%;
+    padding: 15px;
+    background-color: aliceblue;
 }
 #Nine{
     width: 25%;
     height: 100px;
+    padding: 15px;
+    background-color: aliceblue;
 }
 .Dream{
     background-color:black;
     height: 100px;
-    display: flex;
     padding: 20px;
+    position: relative;
       
 }
 .Dream p{
-   position: absolute;
-   right: 220px;
-   font-size: larger;
+   position: relative;
+   left: 100px;
+   top: 30px;
+   font-size: 23px;
   
 }
 .Dream button{
 position: absolute;
 right: 100px;
 color: black;
-background-color: rgb(131, 131, 10);
+bottom: 30px;
+background-color:  #FFAC12;
+border-radius: 0 15px 0 0 ;
 height: 40px;
 }
 .Dream p span{
@@ -239,15 +308,41 @@ height: 40px;
   height: 200px;
 }
 .column h2{
+    margin-left: 40px;
     color: white;
-    font-size: smaller;
+    font-size: 17px;
     font-weight: 800;
 }
 .row {
    
-   width: 60%;
+   width:100%;
     display: flex;
     clear: both;
     float: right;
+  }
+  .media{
+    height: 220px;
+    background-color: black;
+  }
+  .media i{
+      color: white;
+     padding: 10px;
+  }
+  .fb{
+    position: relative;
+    right: 100px;
+    display: flex;
+    padding: 50px;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+    
+  }
+  .fb > i{
+      color: white;
+    display: flex;
+    margin-left: 40px;
+
+    
   }
  

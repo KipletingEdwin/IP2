@@ -1,4 +1,5 @@
 *{
+    
     padding: 0px;
 }
 header{
@@ -104,7 +105,7 @@ header ul li{
     padding: 5px;
     margin: 5px;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
  .Login button{
      color: white;
@@ -122,15 +123,18 @@ header ul li{
      padding: 10px;
  }
  .Tab{
+     margin: 0px;
      padding-left: 15px;
+     height: 100px;
+     width: 60%;
+     
+ }
+ #fiv{
      height: 50px;
-     width: 70%;
-    background-color: #FFAC12;
  }
  .Evr{
      padding-left: 15px;
      height: 50px;
-     background-color: #FFAC12;
      display: flex;
  }
  .Evr span{
@@ -167,42 +171,48 @@ header ul li{
     width: 60%;
    margin-top: 80px;
     padding: 20px;
-    background-color: red;
+    border: 1px solid black;
+    background-color: beige;
 }
 .Des h2{
-    margin-left: 30px;
+    width: 30%;
+    padding-left: 15px;
 }
 .Des p{
+    padding-left: 10px;
     color: black;
    
 }
 .Fea{ 
   display: flex;
-  background-color: green;
-  height: 350px;
-  width: 70%;
+  height: 280px;
+  width: 60%;
   justify-content: center;
 }
-#onene{
+.Fea i{
+    color: #FFAC12;
+ }
+.Fea li{
+    list-style: none;
+    padding: 10px;
+}
+.onene{
    text-align: center;
     height: 350px;
     width: 25%;
-    background-color: yellow;
 }
 #To{
     height: 350px;
     width: 25%;
-    background-color: green;
 }
 #Ora{
     height: 350px;
     width: 25%;
-    background-color: purple; 
+     
 }
 #Air{
     height: 350px;
-    width: 25%;
-    background-color: red;  
+    width: 25%;  
 }
 .Sim{
     display: flex;
@@ -229,7 +239,8 @@ header ul li{
 }
 #Ten{
     width: 25%;
-     
+    padding: 15px;
+     background-color: aliceblue;
 }
 #Ten img{
    height: auto;
@@ -237,13 +248,19 @@ header ul li{
 }
 #Eleven{
     width: 25%;
+    padding: 15px;
+    background-color: aliceblue;
 }
 #Twelve{
     width: 25%;
+    padding: 15px;
+    background-color: aliceblue;
 }
 #Nine{
     width: 25%;
     height: 100px;
+    padding: 15px;
+    background-color: aliceblue;
 }
 .Dream{
     background-color:black;
@@ -298,5 +315,18 @@ height: 40px;
     display: flex;
     clear: both;
     float: right;
+  }
+  .media{
+      height: 220px;
+      background-color:green;
+  }
+  .media i{
+      color: white;
+     padding: 10px;
+     
+  }
+  .fb{
+    background-color: red;
+    
   }
  
